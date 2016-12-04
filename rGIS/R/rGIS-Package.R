@@ -4,7 +4,7 @@
 #' @param Data a dataframe that contains addresses. It may also contain additional columns.
 #' @param AddressVar variable that contains addresses
 #' @param api_key Google's geocode API key
-#' @export
+#' @export datafile with coordinates
 #' @examples
 #' function(AddressDF, Addresses, "XXX")
 

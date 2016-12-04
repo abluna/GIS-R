@@ -6,3 +6,4 @@ Description: R functions for GIS practitioners.
 Depends: R (>= 3.2.5)
 License: NA
 LazyData: true
+RoxygenNote: 5.0.1.9000
