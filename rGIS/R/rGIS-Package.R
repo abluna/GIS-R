@@ -4,7 +4,7 @@
 #' @param Data a dataframe that contains addresses. It may also contain additional columns.
 #' @param AddressVar variable that contains addresses
 #' @param api_key Google's geocode API key
-#' @export datafile with coordinates
+#' @export
 #' @examples
 #' function(AddressDF, Addresses, "XXX")
 
@@ -67,3 +67,4 @@ GeoCoder <- function(Data, AddressVar, api_key) {
   return(Output)
   #function ends  
 }
+document()
