@@ -67,4 +67,4 @@ GeoCoder <- function(Data, AddressVar, api_key) {
   return(Output)
   #function ends  
 }
-document()
+
