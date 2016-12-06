@@ -2,7 +2,7 @@
 % Please edit documentation in R/rGIS-Package.R
 \name{GeoCoder}
 \alias{GeoCoder}
-\title{GeoCoder}
+\title{GeoCoder (using Google maps)}
 \usage{
 GeoCoder(Data, AddressVar, api_key)
 }
@@ -14,9 +14,9 @@ GeoCoder(Data, AddressVar, api_key)
 \item{api_key}{Google's geocode API key}
 }
 \description{
-This function allows you to enter a list of Addresses and use Google maps to locate the coordinate (WGS) of each address. This function requires a valid Google Geocoding API key.
+This function allows user to enter a list of Addresses and use Google maps to locate the coordinate (WGS) of each address. This function requires a valid Google Geocoding API key.
 }
 \examples{
-function(AddressDF, Addresses, "XXX")
+GeoCoder(AddressDF, Addresses, "XXX")
 }
 
